@@ -66,7 +66,7 @@ body{ background-color:#F8F8FA;}
     background-size: cover;
     height:460px;
     display: flex;
-     align-items: center;
+    align-items: center;
 }
 .slider h1{
     font: Bold 40px/76px Noto Kufi Arabic;
@@ -301,6 +301,124 @@ color: #292D33;
 }
 }
 /*end blog*/
+/*start other-many-blog*/
+.other-upper-nav .bg-light{
+     background-color:#BC264F !important;
+}
+.other-upper-nav .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+font: 18px/34px Noto Kufi Arabic;
+}
+/*end other many blog*/
+/* start other slider*/
+.other-slider{
+  background-image: url('../image/other-slider.png');
+    background-size: cover;
+    height:400px;
+
+}
+.other-slider h4{
+        font: Bold 35px/37px Noto Kufi Arabic;
+    color: #FFFFFF;
+    margin-top: 250px;
+    margin-bottom: 50px;
+        
+    
+}
+.other-slider span{
+    font: 20px/13px Noto Kufi Arabic;
+    color: #FFFFFF;   
+}
+.content .our-content-one{
+     padding: 30px 0px;
+}
+.content .our-content-one p{
+    font:  22px/40px Noto Kufi Arabic;
+color: #000000;
+    margin-bottom: 30px;
+}
+.content .our-content-one h3{
+    font: Bold 30px/56px Noto Kufi Arabic;
+    color: #292D33;
+}
+.content .our-content-one ol li span{
+    font: Bold 22px/60px Noto Kufi Arabic;
+letter-spacing: 0px;
+color: #000000;
+}
+.content .our-content-one ol li{
+   font:  20px/40px Noto Kufi Arabic;
+color: #000000
+}
+.content .our-content-two h4 {
+    font: Bold 25px/47px Noto Kufi Arabic;
+color: #292D33;
+    padding-top: 30px;
+    margin-bottom: -20px;
+}
+.content .our-content-two hr {
+    background-color: #BC264F;
+    width: 225px;
+        float: right;
+}
+.content .our-content-two img{
+     width: 225px;
+}
+.content .our-content-two h6{
+     font: Bold 20px/38px Noto Kufi Arabic;
+     color: #292D33;
+     line-height: 20px;
+     margin-top: 5px;
+
+}
+.content .our-content-two p{
+ font: 12px/20px Noto Kufi Arabic;
+color: #A5A6AD;
+     white-space: nowrap;
+     overflow: hidden;
+text-overflow: ellipsis;
+        width: 205px;
+    height: 36px;
+}
+.relation h4 {
+    font: Bold 25px/47px Noto Kufi Arabic;
+color: #292D33;
+    margin-bottom: -20px;
+}
+.relation hr {
+    background-color: #BC264F;
+    margin-right: 0px;
+        
+}
+.relation img{
+        width: 270px;
+        margin-bottom: 5px;
+}
+.relation p{
+font: Bold 19px/36px Noto Kufi Arabic;
+
+color: #292D33;
+}
+
+@media(max-width:576px){
+    .content .our-content-two img{
+    display: flex;
+       justify-content: center;
+        margin-bottom: 15px;
+           width: 300px
+}
+    .relation img{
+       display: flex;
+       justify-content: center;
+        margin-bottom: 15px;
+         
+}
+ 
+    
+}
+
+/*end other slider*/
+
 /*start client*/
 .client h2{
     font: Bold 30px/56px Noto Kufi Arabic;
@@ -345,6 +463,7 @@ color: #292D33;
 }
 }
 /*end client*/
+
 /*start footer*/
 .footer{
     background-color: #292D33;
