@@ -416,6 +416,12 @@ color: #292D33;
  
     
 }
+.other-upper-nav .navbar-light .navbar-nav .nav-link:hover{
+ background-color:#e83e8c;
+    font-weight: bold;
+    border-radius:10px;
+ 
+}
 
 /*end other slider*/
 
